@@ -1,0 +1,28 @@
+package appium.pom.editbox;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+
+public class ActionKeywords {
+
+	WebDriver driver;
+	public void TypeTextOnEditBox(String object){
+		
+		driver.findElement(By.id(object)).sendKeys("");
+	}
+	
+	public void VerifyEditBoxEnabled(String object)
+	{
+		boolean enabled = driver.findElement(By.id(object)).isEnabled();
+	}
+	public void VerifyEditBoxValue(String object,String val2)
+	{
+	String val = driver.findElement(By.id(object)).getText();
+	if(val.equals(val2))
+	{
+		System.out.println("True");
+	}
+	}
+	
+}
