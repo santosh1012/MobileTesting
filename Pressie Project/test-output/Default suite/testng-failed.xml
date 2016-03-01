@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pressie.testcases.TS_01">
+      <class name="com.appium.learn.Donna">
         <methods>
-          <include name="bsuite"/>
-          <include name="TC_001"/>
+          <include name="uidisplay"/>
+          <include name="testApp"/>
         </methods>
-      </class> <!-- com.pressie.testcases.TS_01 -->
+      </class> <!-- com.appium.learn.Donna -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

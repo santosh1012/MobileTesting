@@ -19,6 +19,18 @@
 			<item value="0.0.1-SNAPSHOT"/>
 		</list>
 	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
 	<section name="MavenProjectWizardArchetypePage">
 		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
@@ -32,6 +44,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Mobile Setup\Projects\pressie"/>
+			<item value="C:\Mobile Setup\Projects\Pressie"/>
+			<item value="C:\Mobile Setup\Projects\selenium"/>
 			<item value="C:\Mobile Setup\Projects\Java Learning"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,10 +60,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="pressie1.regression"/>
 		</list>
 		<list key="groupId">
+			<item value="pressie1.0"/>
 		</list>
 		<list key="artifactId">
+			<item value="regression"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

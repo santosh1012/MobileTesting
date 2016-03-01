@@ -4,7 +4,7 @@ public class Constants {
 
 	
 	//Application details
-	public static final String FilePath="C:\\Mobile Setup\\Jars\\pressie-debug.apk";
+	public static final String FilePath="C:\\Mobile Setup\\Jars\\pressie-qa.apk";
 	public static final String appActivity="jaarwis.pressie.ActivitySplash";
 	public static final String appPackage="jaarwis.pressie";
 
